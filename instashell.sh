@@ -209,6 +209,8 @@ done
 exit 1
 }
 
+cd instashell/ chmod 775 instashell.sh chmod 775 install.sh
+
 case "$1" in --resume) resume ;; *)
 start
 bruteforcer
